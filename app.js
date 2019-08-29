@@ -63,6 +63,7 @@ app.get("/viewBooks",(req,res)=>{
             console.log(error);
         } else {
             res.send(data);
+            console.log("Book send successfully")
         }
     });
 });
